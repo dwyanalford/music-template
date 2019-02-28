@@ -1,0 +1,66 @@
+/**********************************    CSS Template Overrides - Text & Fonts   ******************/
+h1, h2, h3, h4, h5, p, a, span {
+	font-family: 'Barlow', sans-serif;
+	color: #cdcdcd;
+}
+
+p, a {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+/******************************************    Home Page Content    ******************/
+#middle-background{
+	 background-image: url(../images/background-effect-blood-cells.jpg);
+   background-position: center;
+ 	 height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+.event-list-background{
+	background-color: #222222;
+}
+.event-margins{
+	margin-bottom: 10px;
+}
+.content-border {
+	border-color: #333333;
+	border-width: 0.25px;
+	border-style: solid;
+	border-radius: 7px;
+}
+.tabel-row-border {
+	border-bottom: 0.25px solid #333333;
+}
+.title-border {
+	border-bottom: 0.25px solid #333333;
+}
+
+/******************************************    Social Media Content    ******************/
+#social-media-background {
+	background-image: url(../images/social-media-background.jpg);
+  background-position: center;
+	height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
